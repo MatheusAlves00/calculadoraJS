@@ -12,6 +12,8 @@ botoes.forEach(function(botao){
     if (this.value == '='){
       var valores = display.value.split(operacao);
       calcular(valores);
+    } else if(this.value == 'C') {
+      limpar();
     } else {
       display.value += this.value;
     }
@@ -38,4 +40,8 @@ function calcular(valores) {
     default:
       break;
   }
+}
+
+function limpar() {
+  display.value = "";
 }
