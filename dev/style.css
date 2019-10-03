@@ -27,8 +27,17 @@ table .num{
     border-radius: 15%;
 }
 
-table .operacao, .virgula{
-    background: #dadddf;
+table .operacao, .virgula, .clear{
     font-size: 20px;
     border-radius: 15%;
+}
+
+.operacao{
+    background: orange;
+    color: white;
+}
+
+.clear{
+    background: red;
+    color: white;
 }
