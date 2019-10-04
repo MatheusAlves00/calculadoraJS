@@ -27,12 +27,12 @@ table .num{
     border-radius: 15%;
 }
 
-table .operacao, .virgula, .clear{
+table .operacao, .virgula, .clear, .igual{
     font-size: 20px;
     border-radius: 15%;
 }
 
-.operacao{
+.operacao, .igual{
     background: orange;
     color: white;
 }

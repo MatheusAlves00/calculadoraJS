@@ -5,13 +5,12 @@ botoes.forEach(function(botao){
   botao.addEventListener("click", function(){
     var display = document.querySelector("#display");
 
-    if (this.classList.contains('operacao') && this.value != '='){
+    if (this.classList.contains('operacao')){
       operacao = this.value;
     }
     
     if (this.value == '='){
-      var valores = display.value.split(operacao);
-      calcular(valores);
+      display.value = eval(display.value);
     } else if(this.value == 'C') {
       limpar();
     } else {
@@ -21,26 +20,6 @@ botoes.forEach(function(botao){
   });
 });
 
-function calcular(valores) {
-  var num1 = parseFloat(valores[0]);
-  var num2 = parseFloat(valores[1]);
-  switch (operacao) {
-    case '+':
-      display.value = num1 + num2;
-      break;
-    case '-':
-      display.value = num1 - num2;
-      break;
-    case '*':
-      display.value = num1 * num2;
-      break;
-    case '/':
-      display.value = num1 / num2;
-      break;
-    default:
-      break;
-  }
-}
 
 function limpar() {
   display.value = "";
