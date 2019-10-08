@@ -7,37 +7,51 @@
 body {
     display: flex;
     justify-content: center;
-    
 }
 
 table {
+    margin-top: 10%;
     background: #dfe6e9;
-    border: solid 1px;
+    padding: 5px;
     border-radius: 2%;
+    height: 300px;
+    width: 300px;
+}
+
+table input{
+    width: 100%;
+    font-size: 25px;
+    border-radius: 15%;
+    height: 100%;
+}
+
+table input:hover{
+    opacity: 0.7;
+}
+
+.coluna-display{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 table #display{
-    font-size: 19px;
     text-align: right;
+    background: white;
+    border-radius: 0;
+    height: 85%;
+    border: 0;
 }
 
 table .num{
     background: white;
-    font-size: 20px;
-    border-radius: 15%;
 }
 
-table .operacao, .virgula, .clear{
-    font-size: 20px;
-    border-radius: 15%;
-}
-
-.operacao{
-    background: orange;
+.operacao, .igual{
+    background: #192a56;
     color: white;
 }
 
 .clear{
-    background: red;
+    background:  #EA2027;
     color: white;
 }
