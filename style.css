@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-}
-
 table {
     margin-top: 10%;
     background: #dfe6e9;
@@ -54,4 +49,22 @@ table .num{
 .clear{
     background:  #EA2027;
     color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(166, 166, 202);
+}
+
+.dark-btn{
+    width: 100%;
+    font-size: 25px;
+    border-radius: 15%;
+    height: 100%;
+}
+
+.dark-mode {
+    filter: invert(1) hue-rotate(180deg)
 }
