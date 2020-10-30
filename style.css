@@ -73,3 +73,16 @@ table .num{
 h1{
     transform: rotate(270deg)
 }
+
+.history{
+    height: 300px;
+    overflow: auto;
+}
+
+.history p{
+    font-size: 25px;
+    margin-left: 20px;
+    background-color: rgb(158, 224, 224);
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
