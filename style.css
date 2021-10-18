@@ -106,11 +106,6 @@ table .num{
     border-bottom: 1px solid black;
 }
 
-.num, .operacao, .virgula, .igual, .clear {
-    
-    
-}
-
 /* Scroolbar */
 
 ::-webkit-scrollbar {
