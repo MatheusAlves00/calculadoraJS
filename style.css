@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+input[type=button]{
+    cursor: pointer;
+}
+
 table {
     margin-top: 10%;
     background: #dfe6e9;
