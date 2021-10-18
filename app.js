@@ -28,6 +28,8 @@ darkButton.addEventListener('click', (e) => {
 
 function createHistoryItem(text, result = false){
   let node = document.createElement("p");
+  let textnode;
+  
   if(result){
     textnode = document.createTextNode(`= ${text}`);
   }else{
