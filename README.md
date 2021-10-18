@@ -21,4 +21,4 @@ O desenvolvimento de uma calculadora utilizando as tecnologias:
 
 Light Mode | Dark Mode 
 ---|---
-| <img src="https://github.com/lcassiol/calculadoraJS/blob/master/screenshots/lightmode.png?raw=true" resize="contain" width="400" height="500" />  | <img src="https://github.com/lcassiol/calculadoraJS/blob/master/screenshots/darkmode.png?raw=true" width="400" height="500" > |
+| <img src="https://github.com/MatheusAlves00/calculadoraJS/blob/master/screenshots/lightmode.png?raw=true" resize="contain" width="400" height="500" />  | <img src="https://github.com/MatheusAlves00/calculadoraJS/blob/master/screenshots/darkmode.png?raw=true" width="400" height="500" > |
