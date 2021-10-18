@@ -9,6 +9,7 @@
 
 input[type=button]{
     cursor: pointer;
+    width: 100%;
 }
 
 table {
@@ -103,6 +104,11 @@ table .num{
     -webkit-backdrop-filter: blur( 3.5px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     border-bottom: 1px solid black;
+}
+
+.num, .operacao, .virgula, .igual, .clear {
+    
+    
 }
 
 /* Scroolbar */
