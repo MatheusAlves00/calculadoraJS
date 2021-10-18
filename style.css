@@ -1,7 +1,10 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 input[type=button]{
@@ -18,35 +21,39 @@ table {
 }
 
 table input{
-    width: 100%;
+    width: 95%;
     font-size: 25px;
-    border-radius: 15%;
-    height: 100%;
+    height: 91%;
+    border: none;
+    border-radius: 10%;
+    background:#c6c6d7;
 }
 
 table input:hover{
     opacity: 0.7;
 }
 
-.coluna-display{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 table #display{
     text-align: right;
     background: white;
     border-radius: 0;
-    height: 85%;
+    height: 87%;
     border: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 98%;
+}
+
+.operacao {
+    background: #c6c6d7;
 }
 
 table .num{
     background: white;
 }
 
-.operacao, .igual{
-    background: #192a56;
+.igual{
+    background: #000;
     color: white;
 }
 
@@ -57,36 +64,61 @@ table .num{
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(166, 166, 202);
+    background-color: rgb(191 191 203);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
 }
 
 .dark-btn{
-    width: 100%;
-    font-size: 25px;
-    border-radius: 15%;
-    height: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
 }
 
 .dark-mode {
     filter: invert(1) hue-rotate(180deg)
 }
 
-h1{
-    transform: rotate(270deg)
-}
-
-.history{
+.history {
     height: 300px;
+    margin-top: 30px;
     overflow: auto;
+    
 }
 
 .history p{
     font-size: 25px;
     margin-left: 20px;
-    background-color: rgb(158, 224, 224);
     padding: 10px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(102, 103, 109, 0.37);
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     border-bottom: 1px solid black;
+}
+
+/* Scroolbar */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
