@@ -25,7 +25,6 @@ darkButton.addEventListener('click', (e) => {
   e.target.classList.toggle('dark-mode')
 })
 
-
 function createHistoryItem(text, result = false){
   let node = document.createElement("p");
   if(result){
@@ -37,3 +36,4 @@ function createHistoryItem(text, result = false){
 
   return node
 }
+

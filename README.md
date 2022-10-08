@@ -21,4 +21,4 @@ O desenvolvimento de uma calculadora utilizando as tecnologias:
 
 Light Mode | Dark Mode 
 ---|---
-| <img src="https://github.com/MatheusAlves00/calculadoraJS/blob/master/screenshots/lightmode.png?raw=true" resize="contain" width="800" />  | <img src="https://github.com/MatheusAlves00/calculadoraJS/blob/master/screenshots/darkmode.png?raw=true" width="800" > |
+| <img src="https://github.com/MatheusAlves00/calculadoraJS/blob/master/assets/images/screenshots/lightmode.png?raw=true" resize="contain" width="800" />  | <img src="https://github.com/MatheusAlves00/calculadoraJS/blob/master/assets/images/screenshots/darkmode.png?raw=true" width="800" > |
