@@ -47,3 +47,4 @@ function createHistoryItem(text, result = false){
 
   return node
 }
+
