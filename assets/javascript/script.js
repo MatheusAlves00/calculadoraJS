@@ -28,9 +28,11 @@ darkButton.addEventListener('click', (e) => {
   let icon = document.querySelector('i');
 
   if (html.className == 'dark-mode') {
-    icon.className= "fas fa-moon dark-btn";
-  } else {
     icon.className= "fas fa-sun dark-btn";
+    localStorage.setItem('theme', 'dark');
+  } else {
+    icon.className= "fas fa-moon dark-btn";
+    localStorage.setItem('theme', 'light')
   }
 })
 
@@ -47,4 +49,18 @@ function createHistoryItem(text, result = false){
 
   return node
 }
+
+function setInitialTheme(){
+  let icon = document.querySelector('i');
+
+  if (localStorage.getItem('theme') == 'dark'){
+    document.documentElement.classList.add('dark-mode')
+    icon.className= "fas fa-sun dark-btn";
+  } else {
+    document.documentElement.classList.remove('dark-mode')
+    icon.className= "fas fa-moon dark-btn";
+  }
+}
+
+setInitialTheme()
 
