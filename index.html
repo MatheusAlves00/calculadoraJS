@@ -9,51 +9,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Calculadora</title>
+    <title>Utilify - Início</title>
 </head>
 <body>
-    <div class="container">
-        <div><h1>Calculadora</h1></div>
+    <header class="header">
+		<h1 class="logo"><a href="#">Utilify</a></h1>
+        <ul class="main-nav">
+            <li><a href="pages/calculator.html">Calculadora</a></li>
+            <li><a href="#">Conversor de Moeda</a></li>
+            <li><a href="#" class="dark-btn"><i class="fas fa-moon"></i></a></li>
+        </ul>
+	</header> 
+
+    <div class="container homepage">
+        <h1>O melhor kit de utilidades da internet</h1>
         <div class="content">
-            <div class="calculator">
-                <table>
-                    <tr>
-                        <td colspan="4"><i class="fas fa-sun dark-btn"></i></td>
-                    </tr>
-                    <tr>
-                        <td colspan="3" width="75%" class="coluna-display"><input type="text" id="display" disabled></td>
-                        <td colspan="1" width="25%"><input class="clear" type="button" value="C"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="button" class="num" value="7"></td>
-                        <td><input type="button" class="num" value="8"></td>
-                        <td><input type="button" class="num" value="9"></td>
-                        <td><input type="button" class="operacao" value="/"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="button" class="num" value="4"></td>
-                        <td><input type="button" class="num" value="5"></td>
-                        <td><input type="button" class="num" value="6"></td>
-                        <td><input type="button" class="operacao" value="*"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="button" class="num" value="1"></td>
-                        <td><input type="button" class="num" value="2"></td>
-                        <td><input type="button" class="num" value="3"></td>
-                        <td><input type="button" class="operacao" value="-"></td>
-                    </tr>
-                    <tr>
-                        <td><input type="button" class="virgula" value="."></td>
-                        <td><input type="button" class="num" value="0"></td>
-                        <td><input type="button" class="igual" value="="></td>
-                        <td><input type="button" class="operacao" value="+"></td>
-                    </tr>
-                </table>
-            </div>
-            <div class="history">
-            </div>
+            Calculadora, conversor de moeda e muito mais
         </div>
-        
+        <img src="/assets/images/calculator.gif" alt="" width="150px">
     </div>
 
     <script src="assets/javascript/script.js"></script>
